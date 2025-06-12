@@ -1,5 +1,6 @@
 {
-  "name": "project1-react",
+  "name": "News-Flash",
+  "homepage": "https://github.com/anjchoudhary/News-Flash",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,11 +9,12 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+  
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-    
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
